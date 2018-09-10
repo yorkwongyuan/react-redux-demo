@@ -9,10 +9,10 @@ const Header = class Header extends Component {
         console.log(this.props)
     }
     render() {
-        const { counter, increment, decrement } = this.props
+        const { counter, increment, decrement, adAsy } = this.props
         return (
             <div>
-                <button onClick={increment}>
+                <button onClick={adAsy}>
                     +
                 </button>
                 <button onClick={decrement}>
